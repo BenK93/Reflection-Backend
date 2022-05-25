@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # My APPS
     'Videos',
-    'Users',
+    # 'Users',
     # third party packages
     'rest_framework',
     'rest_framework.authtoken',
@@ -79,7 +79,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'Backend_reflection.wsgi.application'
 
 
-AUTH_USER_MODEL = "Users.User"
+# AUTH_USER_MODEL = "Users.User"
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases

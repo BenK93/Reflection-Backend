@@ -10,6 +10,6 @@ router.register('', VideoViewSet)
 
 
 urlpatterns = [
-    path('', include(router.urls)),
+    path('api/', include(router.urls)),
     # path('<pk>/', UserViewSet.as_view()),
 ]
